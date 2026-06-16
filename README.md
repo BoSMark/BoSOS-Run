@@ -1,4 +1,4 @@
-# BoSOS-Run
+BoSOS-Run
 
 The BoS OS helps you understand and manage your company operating system.
 
@@ -39,6 +39,8 @@ Your folder structure is your system. The files are the memory.
 The Run skill file is maintained in the canonical repo:
 
 - **[BoS-OS-Start](https://github.com/BoSMark/BoS_OS_Start)**
+
+**Note:** Run includes the **Agent Spec Builder** sub-skill (`/skills/agent-spec-builder/SKILL.md`), used by Agent Planner to spec individual agents with decision boundaries, escalation triggers, and evaluation criteria.
 
 Install from there. Full installation instructions are in that repo.
 
