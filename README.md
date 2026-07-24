@@ -1,4 +1,4 @@
-BoSOS-Run
+# BoSOS-Run
 
 The BoS OS helps you understand and manage your company operating system.
 
@@ -8,13 +8,13 @@ The Run skill is where the OS stops being a document and starts doing work.
 
 ## What this skill does
 
-**Run** operates the OS day to day — shaping missions, staffing them with agents, and driving delivery against your North Star metric.
+**Run** operates the OS day to day: shaping missions, staffing them with agents, and driving delivery against your North Star metric.
 
 Run contains three agents that work in sequence:
 
-- **Mission Shaper** takes a rough idea or a problem and coaches it into a Mission Brief. It doesn't tell you what to do — it asks the questions that surface what the mission actually is, what success looks like, and what would block it.
+- **Mission Shaper** takes a rough idea or a problem and coaches it into a Mission Brief. It doesn't tell you what to do. It asks the questions that surface what the mission actually is, what success looks like, and what would block it.
 - **Agent Planner** reads the Mission Brief and staffs the mission. It identifies which agents should run it, what their decision boundaries are, and what the escalation path looks like.
-- **Delivery Manager** runs the day-to-day backlog. It tracks what's in progress, what's blocked, and what's done — and keeps the mission moving without needing to be asked.
+- **Delivery Manager** runs the day-to-day backlog. It tracks what's in progress, what's blocked, and what's done, and keeps the mission moving without needing to be asked.
 
 > **Bootstrap → Workshop → Run:** Bootstrap creates your OS from public information. Workshop refines it with your insider knowledge. Run operates it. Do them in order.
 
@@ -44,7 +44,7 @@ The Run skill file is maintained in the canonical repo:
 
 Install from there. Full installation instructions are in that repo.
 
-> **Important:** Run must be used inside a Cowork project with a folder selected — the same one you used for Bootstrap and Workshop. If you run it from a general Claude conversation, files won't save and you'll need to start again.
+> **Important:** Run must be used inside a Cowork project with a folder selected, the same one you used for Bootstrap and Workshop. If you run it from a general Claude conversation, files won't save and you'll need to start again.
 
 ---
 
@@ -57,7 +57,7 @@ Run requires Bootstrap and Workshop to have completed first. If you haven't done
 3. Install `agent-os-workshop.skill` and run Workshop to harden your strategy documents and agent specs
 4. Then install `agent-os-run.skill` and start with Mission Shaper
 
-Run is designed to pick up exactly where Workshop left off. It reads your agent specs, your strategy documents, and your North Star metric — and works with them.
+Run is designed to pick up exactly where Workshop left off. It reads your agent specs, your strategy documents, and your North Star metric, and works with them.
 
 ---
 
@@ -65,11 +65,11 @@ Run is designed to pick up exactly where Workshop left off. It reads your agent 
 
 Each mission produces a set of state files that persist across sessions:
 
-- **mission-brief.md** — what the mission is, what success looks like, what would block it
-- **todo.md** — the full task backlog
-- **in-progress.md** — what's actively being worked
-- **blocked.md** — what's stuck and why
-- **done.md** — the completed record
+- **mission-brief.md**: what the mission is, what success looks like, what would block it
+- **todo.md**: the full task backlog
+- **in-progress.md**: what's actively being worked
+- **blocked.md**: what's stuck and why
+- **done.md**: the completed record
 
 These files are your audit trail. They also let any session pick up exactly where the last one left off.
 
@@ -79,9 +79,9 @@ These files are your audit trail. They also let any session pick up exactly wher
 
 Run is the operational layer. As your OS matures, new agent specs and mission templates are released on an ongoing basis.
 
-- Full toolkit — [BoS-OS-Start](https://github.com/BoSMark/BoS_OS_Start)
-- Bootstrap only — [BoSOS-Bootstrap](https://github.com/BoSMark/BoSOS-Bootstrap)
-- Workshop only — [BoSOS-Workshop](https://github.com/BoSMark/BoSOS-Workshop)
+- Full toolkit: [BoS-OS-Start](https://github.com/BoSMark/BoS_OS_Start)
+- Bootstrap only: [BoSOS-Bootstrap](https://github.com/BoSMark/BoSOS-Bootstrap)
+- Workshop only: [BoSOS-Workshop](https://github.com/BoSMark/BoSOS-Workshop)
 
 ---
 
@@ -91,7 +91,7 @@ Further skills, scheduled tasks, and agent specs are released on an ongoing basi
 
 **Follow or watch this repo** to get notified when new ones ship.
 
-All BoSMark repos — [github.com/BoSMark](https://github.com/BoSMark)
+All BoSMark repos: [github.com/BoSMark](https://github.com/BoSMark)
 
 ---
 
@@ -105,4 +105,4 @@ Subscribe for workshop announcements, guided cohorts, and peer community access.
 
 ---
 
-*Built by Tim Barker, Mark Littlewood and [Business of Software](https://businessofsoftware.org) — helping software founders build profitable, enduring companies since 2007.*
+*Built by Tim Barker, Mark Littlewood and [Business of Software](https://businessofsoftware.org), helping software founders build profitable, enduring companies since 2007.*
