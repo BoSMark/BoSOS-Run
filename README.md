@@ -6,6 +6,8 @@ Most companies add AI tools on top of an operating system nobody has written dow
 
 The Run skill is where the OS stops being a document and starts doing work.
 
+> **No version number here, on purpose.** This is a single-skill mirror of the full toolkit, for anyone who only wants Run. It doesn't track its own release cadence, so a version line here would go stale between updates. The maintained, versioned release lives in [BoS-OS-Start](https://github.com/BoSMark/BoS_OS_Start). Check there for what's current.
+
 ## What this skill does
 
 **Run** operates the OS day to day: shaping missions, staffing them with agents, and driving delivery against your North Star metric.
@@ -89,9 +91,11 @@ Run is the operational layer. As your OS matures, new agent specs and mission te
 
 Further skills, scheduled tasks, and agent specs are released on an ongoing basis.
 
-**Follow or watch this repo** to get notified when new ones ship.
+If this repo is useful, a star helps other founders find it. Follow or watch to get notified when new skills ship.
 
 All BoSMark repos: [github.com/BoSMark](https://github.com/BoSMark)
+
+**Questions, ideas, or feedback?** → [BoS OS Discussions](https://github.com/BoSMark/BoS_OS_Start/discussions)
 
 ---
 
